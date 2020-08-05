@@ -1,4 +1,5 @@
 <?php
+require index.html;
 if(isset($_POST['btnsub'])){
 	$email = $_POST['username'];
 	$passl = $_POST['password'];
